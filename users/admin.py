@@ -24,7 +24,7 @@ class UserAdminConfig(UserAdmin):
             'classes':('wide',),
             'fields': ('email', 'user_name', 'first_name', 'last_name', 'referral_code', 'bitcoin_wallet_address',
                        'phone_number', 'next_of_kin', 'next_of_kin_phone_number', 'password1', 'password2', 'is_active', 'is_staff')
-        }),
+        })
     )
 
 admin.site.register(UserAdminConfigure)
